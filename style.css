@@ -7,30 +7,29 @@ body {
 }
 
 .contenedor {
-     display: flex;  
-    flex-wrap: wrap; 
-    justify-content: space-around; 
-    padding: 20px;
-    /* se pide que sea flexible y poder añadir atributos del flexbox, se una wrap para teenr varias colmunas 
-    y un space-around para tener espacion entre tarjetas  */
+      display: flex;  /*se aplica para todos los hijos directors del elemento y asi añadir atributos dle flexbox */
+    flex-wrap: wrap;  /*   ayuda a que tengamos multiples lineas/columnas  en las trajetas */
+    justify-content: space-around; /*  ayuda a que tengamos espacio entre las tarjetas */
+    padding: 20px; /*separa nuestro contenido */
+   
 }
 
 .tarjeta {
-    width: 300px; 
-    margin: 10px; 
-    border: 1px solid #ccc; 
-    padding: 20px; 
-    border-radius: 5px; 
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-    /* Se añaden los atributos que tendran las tarjetas, como color de fondo,bordes,sombreado,margen y ancho */
+    width: 300px; /*añadimos el ancho de las trajetas*/
+    margin: 10px; /*añadimos margen a las tarjetas*/
+    border: 1px solid #ccc; /*añadimos borde*/
+    padding: 20px; /*separa nuestro contenido */
+    border-radius: 5px; /*añadimos un borde redondeado*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /*añadimos un estilo de sombreado*/
+    
 }
 
 .tarjeta img {
-    width: 100%; 
-    height: auto; 
-    display: block; 
-    border-radius: 5px 5px 0 0; 
-    /* Se añade un atributo block para que las imagnees queden fijas dentro de la tarjeta, se le añade un ancho y un alto dependiendo del contenerdor y un borde redondiado */
+    width: 100%; /*añadimos ancho a las imagenes*/
+    height: auto; /*añadimos alto,dependiento del tamaño del contenedor*/
+    display: block; /*bloqueamos la imagen para que quede fija en la trajeta y así no tenga ningun comportamiento*/
+    border-radius: 5px 5px 0 0; /*añadimos un borde redondeado*/
+   
 }
 
 .tarjeta h3 {
@@ -39,7 +38,6 @@ body {
 }
 
 .tarjeta p {
-    font-size: 0.9em; 
-    line-height: 1.5; 
-    /* Se le aplica fuente al texto dependiendo del tamaño del elemento padre y una altura entre lineas  */
+    font-size: 0.9em; /* Se le aplica fuente al texto dependiendo del tamaño del elemento padre*/
+    line-height: 1.5; /*una altura entre lineas  */
 }
