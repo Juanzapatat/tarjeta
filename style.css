@@ -1,7 +1,8 @@
 body {
     font-family: sans-serif;/* se añade la fuente a utilizar*/
     margin: 0;/*la margen que tendra la pág */
-  
+  background-image: -webkit-linear-gradient(rgba(247, 1, 1, 0.836),rgb(255, 94, 0),rgba(7, 1, 1, 0.856)); /*añade un gradiente de fondo para un estilo visual*/
+  height: 1000px;/* se le añade alto a al pág para que se vea afectado el gradiente */
 
 
 }
