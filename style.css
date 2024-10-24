@@ -2,14 +2,17 @@ body {
     font-family: sans-serif;
     margin: 0;
    
+    /* se añade la fuente a utilizar y la margen que tendra la pág */
 
 }
 
 .contenedor {
-    display: flex; 
+     display: flex;  
     flex-wrap: wrap; 
     justify-content: space-around; 
     padding: 20px;
+    /* se pide que sea flexible y poder añadir atributos del flexbox, se una wrap para teenr varias colmunas 
+    y un space-around para tener espacion entre tarjetas  */
 }
 
 .tarjeta {
@@ -19,6 +22,7 @@ body {
     padding: 20px; 
     border-radius: 5px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    /* Se añaden los atributos que tendran las tarjetas, como color de fondo,bordes,sombreado,margen y ancho */
 }
 
 .tarjeta img {
@@ -26,13 +30,16 @@ body {
     height: auto; 
     display: block; 
     border-radius: 5px 5px 0 0; 
+    /* Se añade un atributo block para que las imagnees queden fijas dentro de la tarjeta, se le añade un ancho y un alto dependiendo del contenerdor y un borde redondiado */
 }
 
 .tarjeta h3 {
     margin-top: 10px; 
+    /* Se desplaza el texto de arriba-abajo para estar legible */
 }
 
 .tarjeta p {
     font-size: 0.9em; 
     line-height: 1.5; 
+    /* Se le aplica fuente al texto dependiendo del tamaño del elemento padre y una altura entre lineas  */
 }
