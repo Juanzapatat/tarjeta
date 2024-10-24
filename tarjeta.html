@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--a todo el documento se le estara aplicando un mismo estilo de fuente -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout de Tarjetas</title>
+    <!-- llamado a la acción de estilos css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En el contenedor se aplicara un flex, para que dichos elementos sean flexibles y se adapten a los cambios 
+    ,se ordena en multiples colmnas con el "wrap" y el space-around es para darles espacio a las tarjetas  -->
+   
+    <div class="contenedor">
+
+       <!-- En general a todas las tarjetas se les aplicara el mismo borde, mismo color, misma margen,misma sombra -->
+       
+        <div class="tarjeta">
+            <img src="img/descarga.jfif" alt="Imagen 1">
+            <h3>GamesPlays.SAS</h3>
+            <p>Lo más alto en definición para tus juegos y demás versiones </p>
+        </div>
+        <div class="tarjeta">
+            <img src="img/descarga.jfif" alt="Imagen 2">
+            <h3>Contactanos:</h3>
+            <ul>
+                <li>Nombre :Benito Ramirez</li>
+                <li>Cel:230135141</li>
+                <li>Correo : kslñllñd45@gmail.com</li>
+                <li>www.GamesPlays.com/compras</li>
+            </ul>
+        </div>
+        <div class="tarjeta">
+            <img src="img/descarga.jfif" alt="Imagen 3">
+            <h3>Descuento :</h3>
+            <p>Por compras superiores a $800.000 te daremos un daremos una oferta por tiempo limitado en tu segunda compra </p>
+        </div>
+    <!-- En general se le aplicara un estilo diferenet a cada elemento dentro de las tarjetas, por ejemplo : a las images se les aplicara un "disply:block" para que no se desvien del texto, o queden en otro lugar resumidamente quedaran estaticas dentro de la trajeta.Los "h3" solo se desvian hacia abajo partiendo desde el contenedor div que los tiene para quedar visible.Los "p" se les dara un tamaño dependiendo del elemento padre y un alturas entre lineas. -->
+   
+    </div>
+
+</body>
+</html>
